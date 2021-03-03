@@ -1,41 +1,31 @@
 ---
 layout: page
-title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+title: 个人信息
+description: Hello world.
+keywords: Guardian Rain
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+## Rain
 
-仰慕「优雅编码的艺术」。
-
-坚信熟能生巧，努力改变人生。
+* Developer
+* 云计算
 
 ## 联系
 
-<ul>
-{% for website in site.data.social %}
-<li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
-{% endfor %}
-{% if site.url contains 'mazhuang.org' %}
-<li>
-微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
-</li>
-{% endif %}
-</ul>
-
+* GitHub：[@guardianrain](https://github.com/GuardianRain)
+* Email: 215762403@qq.com
+* 博客：[{{ site.title }}]({{ site.url }})
 
 ## Skill Keywords
 
-{% for skill in site.data.skills %}
-### {{ skill.name }}
-<div class="btn-inline">
-{% for keyword in skill.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
-{% endfor %}
+* Linux
+* Openstack
+* Kubernetes
+* Python、Go
+
+## 来源
+本博客Fork于[@mzlogin](https://github.com/mzlogin/mzlogin.github.io)
+向作者致谢
