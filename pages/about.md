@@ -22,7 +22,7 @@ permalink: /about/
 ## Skill Keywords
 
 * Linux
-* Openstack
+* Openstack、Neutron
 * Kubernetes
 * Python、Go
 
