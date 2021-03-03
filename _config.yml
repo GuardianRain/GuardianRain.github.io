@@ -121,14 +121,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: GuardianRain
-    repo: blog-comments
+    repo: gitalkData
     oauth:
         client_id: 07167a833c8807e82052
         client_secret: 1319fbac3768d2a5dc1aaaaa4b5adb9a26aa4587
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: GuardianRain
-    repo: blog-comments
+    repo: gitalkData
     clientID: 07167a833c8807e82052
     clientSecret: 1319fbac3768d2a5dc1aaaaa4b5adb9a26aa4587
 # 在使用其它评论组件时可点击显示 Disqus
