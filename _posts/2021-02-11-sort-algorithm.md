@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 排序算法
-categories: algorithm
+categories: Algorithm
 description: 排序算法
 keywords: 排序算法
 ---
